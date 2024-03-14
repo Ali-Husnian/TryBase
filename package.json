@@ -2,10 +2,10 @@
     "name": "natours",
     "version": "1.0.0",
     "description": "Learn Node Express mongoDB",
-    "main": "./public/js/bundle.js",
+    "main": "index.js",
     "type": "commonjs",
     "scripts": {
-        "start": "node server.js",
+        "start": "node index.js",
         "start:dev": "nodemon server.js",
         "start:prod": "set NODE_ENV=production& nodemon server.js",
         "watch:js": "parcel watch ./public/js/index.js --out-dir ./public/js --out-file bundle.js",
